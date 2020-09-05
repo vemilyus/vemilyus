@@ -21,6 +21,13 @@ val personalExperience = Experience(
     interests = listOf("Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
     driverLicense = setOf(DriverLicense.B)
 )
+
+val person = Person(
+    name = "Alex Katlein",
+    home = "Vienna, Austria",
+    age = 27,
+    experience = workExperience + personalExperience
+)
 ```
 
 </h4>
