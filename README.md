@@ -1,15 +1,29 @@
-```kotlin
-import io.v47.misc.ProfessionalInfo
+<h4>
 
-val info = ProfessionalInfo(
-    languages = listOf("Kotlin", "TypeScript", "Rust", "Java", "JavaScript", "ActionScript 3"),
+```kotlin
+import io.v47.misc.DriverLicense
+import io.v47.misc.Person
+import io.v47.misc.Experience
+
+val workExperience = Experience(
+    languages = listOf("Kotlin", "TypeScript", "Rust", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
     libraries = listOf("Micronaut", "Spring", "Vue", "React", "Angular"),
-    tools = listOf("Docker", "AWS CDK", "IDEA"),
-    interests = listOf("Useful Code", "Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
+    databases = listOf("PostgreSQL", "Oracle", "MySQL", "Teradata"),
+    tools = listOf("Docker", "AWS CDK", "IDEA", "Linux"),
     isEmployed = true
 )
+
+val personalExperience = Experience(
+    languages = listOf("English", "German", "ActionScript 3", "Python"),
+    libraries = listOf("Nuxt"),
+    tools = listOf("GamePad", "Windows"),
+    interests = listOf("Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
+    driverLicense = setOf(DriverLicense.B)
+)
 ```
+
+</h4>
 
 <!--
 **vemilyus/vemilyus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
