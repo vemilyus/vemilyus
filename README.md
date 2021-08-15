@@ -8,7 +8,7 @@ import io.v47.misc.Experience
 val workExperience = Experience(
     languages = listOf("Kotlin", "TypeScript", "Rust", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
-    libraries = listOf("Micronaut", "Spring", "Vue", "React", "Angular"),
+    libraries = listOf("Micronaut", "Spring", "Vue", "React", "Angular", "AWS SDK"),
     databases = listOf("PostgreSQL", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IDEA", "Linux"),
     isEmployed = true
@@ -25,7 +25,7 @@ val personalExperience = Experience(
 val person = Person(
     name = "Alex Katlein",
     home = "Vienna, Austria",
-    age = 27,
+    age = 28,
     experience = workExperience + personalExperience
 )
 ```
