@@ -6,7 +6,7 @@ import io.v47.misc.Person
 import io.v47.misc.Experience
 
 val workExperience = Experience(
-    languages = listOf("Kotlin", "Python", "Rust", "TypeScript", "JavaScript", "Regex"),
+    languages = listOf("Kotlin", "Rust", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
     libraries = listOf("Micronaut", "Quarkus", "Spring", "Vue", "React", "Angular", "AWS SDK"),
     databases = listOf("PostgreSQL", "Oracle", "MySQL", "Teradata"),
