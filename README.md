@@ -6,18 +6,19 @@ import io.v47.misc.Person
 import io.v47.misc.Experience
 
 val workExperience = Experience(
-    languages = listOf("Kotlin", "Rust", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
+    languages = listOf("Rust", "Kotlin", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
-    libraries = listOf("Micronaut", "Quarkus", "Spring", "Vue", "React", "Angular", "AWS SDK"),
-    databases = listOf("PostgreSQL", "Oracle", "MySQL", "Teradata"),
-    tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab"),
+    libraries = listOf("Tokio", "AWS SDK", "Micronaut", "Quarkus", "Spring Boot", "Vue", "React", "Angular"),
+    databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
+    tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub"),
+    happyCustomers = listOf("Otto GmbH & Co KG", "FIATWISE Software AG", "Joyn GmbH", "Raiffeisen International AG"),
     isEmployed = true
 )
 
 val personalExperience = Experience(
     languages = listOf("English", "German", "ActionScript 3"),
     libraries = listOf("Nuxt"),
-    tools = listOf("GamePad", "Windows"),
+    tools = listOf("Proxmox", "LXC", "GamePad", "Windows", "macOS"),
     interests = listOf("Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
     driverLicense = setOf(DriverLicense.B)
 )
@@ -25,7 +26,7 @@ val personalExperience = Experience(
 val person = Person(
     name = "Alex Katlein",
     home = "Vienna, Austria",
-    age = 28,
+    age = 29,
     experience = workExperience + personalExperience
 )
 ```
