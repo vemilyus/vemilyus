@@ -8,9 +8,9 @@ import io.v47.misc.Experience
 val workExperience = Experience(
     languages = listOf("Rust", "Kotlin", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
-    libraries = listOf("Tokio", "AWS SDK", "Micronaut", "Quarkus", "Spring Boot", "Vue", "React", "Angular"),
+    libraries = listOf("Tokio", "AWS SDK", "Quarkus", "Micronaut", "Spring Boot", "Vue", "React", "Angular"),
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
-    tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub"),
+    tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
     happyCustomers = listOf("Otto GmbH & Co KG", "FIATWISE Software AG", "Joyn GmbH", "Raiffeisen International AG"),
     isEmployed = true
 )
@@ -18,7 +18,7 @@ val workExperience = Experience(
 val personalExperience = Experience(
     languages = listOf("English", "German", "ActionScript 3"),
     libraries = listOf("Nuxt"),
-    tools = listOf("Proxmox", "LXC", "GamePad", "Windows", "macOS"),
+    tools = listOf("Proxmox", "LXC", "GamePad", "Windows"),
     interests = listOf("Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
     driverLicense = setOf(DriverLicense.B)
 )
