@@ -8,10 +8,11 @@ import io.v47.misc.Experience
 val workExperience = Experience(
     languages = listOf("Rust", "Kotlin", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
+    platforms = listOf("Linux", "Android"),
     libraries = listOf("Tokio", "AWS SDK", "Quarkus", "Micronaut", "Spring Boot", "Vue", "React", "Angular"),
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
-    happyCustomers = listOf("Otto GmbH & Co KG", "FIATWISE Software AG", "Joyn GmbH", "Raiffeisen International AG"),
+    happyCustomers = listOf("Otto GmbH & Co KG", "FIATWISE Software AG", "Joyn GmbH", "Raiffeisen Bank International A.G."),
     isEmployed = true
 )
 
