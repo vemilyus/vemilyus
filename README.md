@@ -19,15 +19,15 @@ val workExperience = Experience(
 val personalExperience = Experience(
     languages = listOf("English", "German", "ActionScript 3"),
     libraries = listOf("Nuxt"),
-    tools = listOf("Proxmox", "LXC", "GamePad", "Windows"),
-    interests = listOf("Media Transcoding", "Flying", "Space Exploration", "Sci-Fi"),
+    tools = listOf("Proxmox", "openmediavault", "LXC", "SaltStack", "GamePad", "Windows"),
+    interests = listOf("Homelabs", "Media Transcoding", "Flying", "Space Exploration", "Sci-Fi", "Craft Beer"),
     driverLicense = setOf(DriverLicense.B)
 )
 
 val person = Person(
     name = "Alex Katlein",
     home = "Vienna, Austria",
-    age = 29,
+    age = 30,
     experience = workExperience + personalExperience
 )
 ```
