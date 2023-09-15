@@ -4,6 +4,7 @@
 import io.v47.misc.DriverLicense
 import io.v47.misc.Person
 import io.v47.misc.Experience
+import io.v47.misc.Customer
 
 val workExperience = Experience(
     languages = listOf("Rust", "Kotlin", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
@@ -12,7 +13,14 @@ val workExperience = Experience(
     libraries = listOf("Tokio", "AWS SDK", "Quarkus", "Micronaut", "Spring Boot", "Vue", "React", "Angular"),
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
-    happyCustomers = listOf("Otto GmbH & Co KG", "FIATWISE Software AG", "Joyn GmbH", "Raiffeisen Bank International A.G."),
+    happyCustomers = listOf(
+        Customer("ACREDIA Versicherung AG", "Vienna", "Austria"),
+        Customer("MSE Personal Service AG", "Eschen", "Liechtenstein"),
+        Customer("Otto GmbH & Co KG", "Hamburg", "Germany"),
+        Customer("FIATWISE Software AG", "Vienna", "Austria"),
+        Customer("Joyn GmbH", "Munich", "Germany"),
+        Customer("Raiffeisen Bank International A.G.", "Vienna", "Austria")
+    ),
     isEmployed = true
 )
 
