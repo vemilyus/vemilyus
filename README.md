@@ -14,6 +14,7 @@ val workExperience = Experience(
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
     happyCustomers = listOf(
+        Customer("Erste Digital GmbH", "Vienna", "Austria"),
         Customer("ACREDIA Versicherung AG", "Vienna", "Austria"),
         Customer("MSE Personal Service AG", "Eschen", "Liechtenstein"),
         Customer("Otto GmbH & Co KG", "Hamburg", "Germany"),
@@ -21,13 +22,13 @@ val workExperience = Experience(
         Customer("Joyn GmbH", "Munich", "Germany"),
         Customer("Raiffeisen Bank International A.G.", "Vienna", "Austria")
     ),
-    isEmployed = true
+    isFreelancing = true
 )
 
 val personalExperience = Experience(
     languages = listOf("English", "German", "ActionScript 3"),
     libraries = listOf("Nuxt"),
-    tools = listOf("Proxmox", "openmediavault", "LXC", "SaltStack", "GamePad", "Windows"),
+    tools = listOf("Proxmox", "openmediavault", "LXC", "SaltStack", "GamePad", "Windows", "ffmpeg"),
     interests = listOf("Homelabs", "Media Transcoding", "Flying", "Space Exploration", "Sci-Fi", "Craft Beer"),
     driverLicense = setOf(DriverLicense.B)
 )
