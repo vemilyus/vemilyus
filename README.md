@@ -7,6 +7,7 @@ import io.v47.misc.Experience
 import io.v47.misc.Customer
 
 val workExperience = Experience(
+    specializations = listOf("Software Architecture", "Software Transformation", "Product Engineering"),
     languages = listOf("Rust", "Kotlin", "Go", "Python", "TypeScript", "JavaScript", "Regex"),
     runtimes = listOf("JVM", "Node.js"),
     platforms = listOf("Linux", "Android"),
@@ -14,6 +15,7 @@ val workExperience = Experience(
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
     happyCustomers = listOf(
+        Customer("Raiffeisen-IMPULS-Leasing Gesellschaft m.b.H.", "Linz", "Austria"),
         Customer("Erste Digital GmbH", "Vienna", "Austria"),
         Customer("ACREDIA Versicherung AG", "Vienna", "Austria"),
         Customer("MSE Personal Service AG", "Eschen", "Liechtenstein"),
@@ -36,7 +38,7 @@ val personalExperience = Experience(
 val person = Person(
     name = "Alex Katlein",
     home = "Vienna, Austria",
-    age = 30,
+    age = 31,
     experience = workExperience + personalExperience
 )
 ```
