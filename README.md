@@ -39,7 +39,7 @@ val personalExperience = Experience(
 
 val person = Person(
     name = "Alex Katlein",
-    home = "Vienna, Austria",
+    home = "Baden, Austria",
     age = 31,
     experience = workExperience + personalExperience
 )
