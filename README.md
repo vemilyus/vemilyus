@@ -15,7 +15,9 @@ val workExperience = Experience(
     databases = listOf("PostgreSQL", "DynamoDB", "Redis", "Oracle", "MySQL", "Teradata"),
     tools = listOf("Docker", "AWS CDK", "IntelliJ IDEA", "Linux", "GitLab", "GitHub", "macOS"),
     happyCustomers = listOf(
+        Customer("SPAR Business Services GmbH", "Salzburg", "Austria"),
         Customer("Raiffeisen-IMPULS-Leasing Gesellschaft m.b.H.", "Linz", "Austria"),
+        Customer("Umweltbundesamt GmbH", "Vienna", "Austria"),
         Customer("Erste Digital GmbH", "Vienna", "Austria"),
         Customer("ACREDIA Versicherung AG", "Vienna", "Austria"),
         Customer("MSE Personal Service AG", "Eschen", "Liechtenstein"),
